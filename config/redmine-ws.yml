@@ -1,0 +1,12 @@
+- 
+  name: 'redmine'
+  protocol: 'http'
+  host: '172.17.0.3'
+  port: 80
+  service: '/projects.xml'
+- 
+  name: 'redmine-cloud'
+  protocol: 'http'
+  host: '172.17.0.3'
+  port: 80
+  service: '/projects.xml'
