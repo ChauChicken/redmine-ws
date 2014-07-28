@@ -1,0 +1,16 @@
+- 
+  name: 'redmine'
+  protocol: 'https'
+  host: 'redmine.afip.gob.ar'
+  port: 443
+  service: '/projects.xml'
+  key: '7f12daf3ec712263b74db4a3788bc8ae6b58ef35'
+  sarhaCode: 'A0FHE00000'
+- 
+  name: 'redmine-cloud'
+  protocol: 'http'
+  host: '172.17.0.3'
+  port: 80
+  service: '/projects.xml'
+  key: '7f12daf3ec712263b74db4a3788bc8ae6b58ef33'
+  sarhaCode: 'A0FHE00000'
